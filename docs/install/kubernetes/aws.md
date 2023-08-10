@@ -39,7 +39,7 @@ an overview of the parameters that can be configured during installation under
 ```yaml
 global:
   storageClass: gp2-resizable
-  cloud: gcp
+  cloud: aws
 
 clickhouse:
   installCustomStorageClass: true
